@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    padding: 2%;
+    margin: 10% 30%;
+    width: 22vw;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+.screen input{
+    background-color: rgb(40, 40, 40);
+    padding: 10px 13%;
+    border: none;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+.btn1 input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 45%;
+    background-color: red;
+}
+.btn input{
+    padding: 10px 30px;
+
+}
+.btn .numbers1{
+    padding: 10px 22px;
+}
+.btn .numbers2 {
+    padding: 10px 47px;
+}

@@ -1,0 +1,30 @@
+body{
+    background: rgb(236, 87, 87);
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.whitebox{
+    margin: 30px;
+    background: rgb(250, 247, 247);
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
+.imgbox{
+    margin: 45px;
+    background-image: url(./asset/png-transparent-vue-js-hd-logo-thumbnail.png);
+    position:relative;
+    width: 500px;
+    height: 400px;
+}
+
+.hold{
+    border: 4px solid rgb(121, 121, 255);
+}
+.hide{
+    display: none;
+}

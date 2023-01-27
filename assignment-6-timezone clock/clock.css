@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(30, 30, 30);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.hrs{
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(252, 63, 63);
+}
+.min{
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(75, 245, 75);
+}
+.sec{
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 1);
+}
+.calender{
+    background-color: rgb(52, 51, 51);
+    width: 200px;
+    height: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(163, 161, 161);
+    gap: 20px;
+    margin-top: 30px;
+}
